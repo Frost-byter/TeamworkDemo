@@ -18,6 +18,11 @@ public class MyCounter extends Thread {
 
     @Override 
     public void run() {
+        //Derrick Brown
+        for(int i = 0; i < 77; i +=7){
+            System.out.print(i + "%");
+        }
+        
         // kyle cook
         for(int i = 0; i < 22; i+=3) {
             System.out.print(i + "$");
