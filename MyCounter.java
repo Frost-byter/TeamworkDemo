@@ -1,3 +1,4 @@
+
 public class MyCounter extends Thread {
 
     /*
@@ -16,16 +17,31 @@ public class MyCounter extends Thread {
      * While mergeing DO NOT overrite someone else's code
      */
 
+     
     @Override 
     public void run() {
+      // kyle cook
+
+        // Kyle Cook
+ main
+        for(int i = 0; i < 22; i+=3) {
+            System.out.print(i + "$");
+        }
+        // Andy Challman
+        for(int i = 0; i < 46; i+=4) {
+            System.out.print(i + " :Andy's Version");
+        }
+        		int count = 0;
+
+		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
+			count++;
+		}
+		System.out.println(count);
+    }
+} DBRun
         //Derrick Brown
         for(int i = 0; i < 77; i +=7){
             System.out.print(i + "%");
         }
         
-        // kyle cook
-        for(int i = 0; i < 22; i+=3) {
-            System.out.print(i + "$");
-        }
-    }
-}
+  
