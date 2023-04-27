@@ -10,7 +10,11 @@ Pink
 Chartreuse
 Burnt Umber
 Hot Mauve
+White
+Yellow
+Green
 
 Thursday
+Friday
 
 27
