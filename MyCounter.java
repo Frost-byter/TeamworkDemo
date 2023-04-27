@@ -1,25 +1,33 @@
-package com.skillstorm.homework;
 
-public class MyCounter extends Thread{
+public class MyCounter extends Thread {
 
+    /*
+     * Make a branch
+     * Implement this run method
+     * 
+     * What does run do? 
+     *  It counts from 0 to any number of your choosing
+     *  It counts by any increment of your choosing
+     *  It prints the number out when it's finished
+     * 
+     * I want you to merge your method into the main branch
+     * Upload the file you have locally after you merge it
+     * add a comment with your name next to your loop in the run method
+     * 
+     * While mergeing DO NOT overrite someone else's code
+     */
 
-	public static void main(String[] args) {
+    @Override 
+    public void run() {
+        // kyle cook
+        for(int i = 0; i < 22; i+=3) {
+            System.out.print(i + "$");
+        }
+        		int count = 0;
 
-		MyCounter mC = new MyCounter();
-
-		mC.run();
-
-	}
-
-	@Override
-	public void run() { // Ernesto Higuera
-
-		int count = 0;
-
-		for(int i = 0; i < 7 ; i++) {
+		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
 			count++;
 		}
 		System.out.println(count);
-
-	}
+    }
 }
