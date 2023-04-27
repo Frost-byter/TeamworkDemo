@@ -18,6 +18,9 @@ public class MyCounter extends Thread {
 
     @Override 
     public void run() {
-        
+        // kyle cook
+        for(int i = 0; i < 22; i+=3) {
+        System.out.print(i + "$");
+        }
     }
 }
