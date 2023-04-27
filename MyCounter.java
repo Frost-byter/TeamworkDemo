@@ -25,19 +25,8 @@ public class MyCounter extends Thread {
 
     @Override 
     public void run() {
-        // kyle cook
-        for(int i = 0; i < 22; i+=3) {
-            System.out.print(i + "$");
-        }
-        		int count = 0;
-
-		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
-			count++;
-		}
-		System.out.println(count);
-    
-        int i = 0;        
-        for ( ; i < number; ) { // Nick S
+        int i = 0; // Nick S - START
+        for ( ; i < number; ) { 
             if (number % 2 == 1) {
                 i++;
             } else {
@@ -53,7 +42,7 @@ public class MyCounter extends Thread {
             System.out.printf("%d is so odd, we slowly counted from 0 to %d.%n", number, i);
         } else {
             System.out.printf("I evenly counted %d times and now I've got %d.%n", number / 2, i);
-        }
+        }  // Nick S - END
     }
 }
 
