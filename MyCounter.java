@@ -23,7 +23,6 @@ public class MyCounter extends Thread {
       // kyle cook
 
         // Kyle Cook
- main
         for(int i = 0; i < 22; i+=3) {
             System.out.print(i + "$");
         }
@@ -42,11 +41,30 @@ public class MyCounter extends Thread {
             for(int i = 0; i < 3; i++) {
                 System.out.print("Kid");
             }
-    }
-} DBRun
+    
+ 
         //Derrick Brown
         for(int i = 0; i < 77; i +=7){
             System.out.print(i + "%");
         }
-        
-  
+
+        int j = 0; // Nick S - START
+        for ( ; j < number; ) { 
+            if (number % 2 == 1) {
+                j++;
+            } else {
+                j += 2;
+            }
+        }
+
+        if (number == 0) {
+            System.out.printf("0 is a boring non-number number.%n");
+        } else if (number < 0) {
+            System.out.printf("Negativity is not fun.%n");
+        } else if (number % 2 == 1) {
+            System.out.printf("%d is so odd, we slowly counted from 0 to %d.%n", number, j);
+        } else {
+            System.out.printf("I evenly counted %d times and now I've got %d.%n", number / 2, j);
+        }  // Nick S - END
+    }
+}
