@@ -7,7 +7,11 @@ Blue
 Purple
 Black
 Pink
+White
+Yellow
+Green
 
 Thursday
+Friday
 
 27
