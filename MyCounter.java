@@ -17,20 +17,43 @@ public class MyCounter extends Thread {
      * While mergeing DO NOT overrite someone else's code
      */
 
-    private int number;
-
-    public MyCounter(int number) {
-        this.number = number;
-    }
-
+     
     @Override 
     public void run() {
-        int i = 0; // Nick S - START
-        for ( ; i < number; ) { 
+      // kyle cook
+
+        // Kyle Cook
+        for(int i = 0; i < 22; i+=3) {
+            System.out.print(i + "$");
+        }
+        // Andy Challman
+        for(int i = 0; i < 46; i+=4) {
+            System.out.print(i + " :Andy's Version");
+        }
+        		int count = 0;
+
+		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
+			count++;
+		}
+		System.out.println(count);
+		
+	    // Kid Barker
+            for(int i = 0; i < 3; i++) {
+                System.out.print("Kid");
+            }
+    
+ 
+        //Derrick Brown
+        for(int i = 0; i < 77; i +=7){
+            System.out.print(i + "%");
+        }
+
+        int j = 0; // Nick S - START
+        for ( ; j < number; ) { 
             if (number % 2 == 1) {
-                i++;
+                j++;
             } else {
-                i += 2;
+                j += 2;
             }
         }
 
@@ -39,10 +62,9 @@ public class MyCounter extends Thread {
         } else if (number < 0) {
             System.out.printf("Negativity is not fun.%n");
         } else if (number % 2 == 1) {
-            System.out.printf("%d is so odd, we slowly counted from 0 to %d.%n", number, i);
+            System.out.printf("%d is so odd, we slowly counted from 0 to %d.%n", number, j);
         } else {
-            System.out.printf("I evenly counted %d times and now I've got %d.%n", number / 2, i);
+            System.out.printf("I evenly counted %d times and now I've got %d.%n", number / 2, j);
         }  // Nick S - END
     }
 }
-
