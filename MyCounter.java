@@ -20,7 +20,7 @@ public class MyCounter extends Thread {
     public void run() {
         // kyle cook
         for(int i = 0; i < 22; i+=3) {
-        System.out.print(i + "$");
+            System.out.print(i + "$");
         }
     }
 }
