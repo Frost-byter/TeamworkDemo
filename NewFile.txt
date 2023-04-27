@@ -5,6 +5,8 @@ it has some text in it
 Red
 Blue
 Purple
+Black
+Pink
 
 Thursday
 
