@@ -37,6 +37,11 @@ public class MyCounter extends Thread {
 			count++;
 		}
 		System.out.println(count);
+		
+	    // Kid Barker
+            for(int i = 0; i < 3; i++) {
+                System.out.print("Kid");
+            }
     }
 } DBRun
         //Derrick Brown
