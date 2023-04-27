@@ -1,3 +1,4 @@
+
 public class MyCounter extends Thread {
 
     /*
@@ -22,5 +23,11 @@ public class MyCounter extends Thread {
         for(int i = 0; i < 46; i+=4) {
             System.out.print(i + " :Andy's Version");
         }
+        		int count = 0;
+
+		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
+			count++;
+		}
+		System.out.println(count);
     }
 }
