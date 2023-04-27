@@ -1,3 +1,4 @@
+
 public class MyCounter extends Thread {
 
     /*
@@ -24,6 +25,17 @@ public class MyCounter extends Thread {
 
     @Override 
     public void run() {
+        // kyle cook
+        for(int i = 0; i < 22; i+=3) {
+            System.out.print(i + "$");
+        }
+        		int count = 0;
+
+		for(int i = 0; i < 7 ; i++) {//Ernesto Higuera
+			count++;
+		}
+		System.out.println(count);
+    
         int i = 0;        
         for ( ; i < number; ) { // Nick S
             if (number % 2 == 1) {
@@ -43,4 +55,5 @@ public class MyCounter extends Thread {
             System.out.printf("I evenly counted %d times and now I've got %d.%n", number / 2, i);
         }
     }
-}   
+}
+
