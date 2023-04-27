@@ -20,7 +20,10 @@ public class MyCounter extends Thread {
      
     @Override 
     public void run() {
+      // kyle cook
+
         // Kyle Cook
+ main
         for(int i = 0; i < 22; i+=3) {
             System.out.print(i + "$");
         }
@@ -35,4 +38,10 @@ public class MyCounter extends Thread {
 		}
 		System.out.println(count);
     }
-}
+} DBRun
+        //Derrick Brown
+        for(int i = 0; i < 77; i +=7){
+            System.out.print(i + "%");
+        }
+        
+  
