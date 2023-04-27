@@ -7,6 +7,9 @@ Blue
 Purple
 Black
 Pink
+Chartreuse
+Burnt Umber
+Hot Mauve
 White
 Yellow
 Green
